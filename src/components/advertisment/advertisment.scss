@@ -1,0 +1,65 @@
+.advertisment {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4EFE9;
+    border-radius: 20px;
+    margin-bottom: 37px;
+    // &::after {
+    //     position: absolute;
+    //     display: block;
+    //     cursor: pointer;
+    //     right: -20px;
+    //     top: 43%;
+    //     content: url('../../../public/img/advertRightArrow.png');
+    //     display: block;
+    // }
+}
+
+.advertisment__left {
+
+}
+
+.advertisment__title {
+    color: #000;
+    font-size: 38px;
+    font-weight: 700;
+    max-width: 360px;
+    padding-left: 60px;
+    margin-bottom: 15px;
+    span {
+        color: #8BB43C;
+    }
+}
+
+.advertisment__logo {
+    margin: 16px 0 32px 20px;
+}
+
+.advertisment__button {
+    width: 178px;
+    height: 47px;
+    border-radius: 110px;
+    background: #A5D364;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 60px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: lighten(#9dd558, 5%);
+    }
+
+    &:active {
+        background-color: darken(#9dd558, 5%);
+    }
+}
+
+
+
+
+
+

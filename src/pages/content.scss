@@ -1,0 +1,39 @@
+.content {
+    margin-bottom: 50px;
+}
+
+.content__title {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.content__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 35px;
+}
+
+.content__search {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #F3F3F3;
+    padding: 13px 150px 15px 18px;
+
+}
+
+.content__input::placeholder {
+    color: #C4C4C4;
+    font-size: 14px;
+    font-weight: 400;
+}
